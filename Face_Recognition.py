@@ -5,6 +5,8 @@ import time
 import cv2
 import os
 
+# https://pythonist.ru/raspoznavanie-licz-pri-pomoshhi-python-i-opencv/
+
 cascPathface = os.path.dirname(cv2.__file__) + "/data/haarcascade_frontalface_alt2.xml"
 
 faceCascade = cv2.CascadeClassifier(cascPathface)
